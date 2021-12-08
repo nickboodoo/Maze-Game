@@ -1,12 +1,12 @@
-# Map layout represented as a 2D array of 16 planets
+# Map layout represented as a 2D array of 16 rooms
 # There are 6 Rooms with Golden Spoons and 1 Room with the Angry Chef.
 list_rooms = [
-    [[1, "Empty", "Front Door"], [2, "Empty", "Aakon"], [3, "Infinity Stone", "Vormir"], [4, "Empty", "Zen-Whoberi"]],
-    [[5, "Empty", "Titan"], [6, "Golden Spoons", "Nidavellir"], [7, "Empty", "Jotunheim"],
-     [8, "Golden Spoons", "Asgard"]],
-    [[9, "Empty", "Sakaar"], [10, "Angry Chef", "Mars"], [11, "Empty", "Xandar"], [12, "Empty", "Maveth"]],
-    [[13, "Golden Spoons", "Dervani"], [14, "Golden Spoons", "Ria"], [15, "Empty", "Ego"],
-     [16, "Golden Spoons", "Vanaheim"]]
+    [[1, "Empty", "Front Door"], [2, "Empty", "Atrium"], [3, "Golden Spoon", "Closet"], [4, "Empty", "Bedroom"]],
+    [[5, "Empty", "Bathroom"], [6, "Golden Spoons", "Living Room"], [7, "Empty", "Grand Hallway"],
+     [8, "Golden Spoons", "Family Room"]],
+    [[9, "Empty", "Indoor Garden"], [10, "Angry Chef", "Kitchen"], [11, "Empty", "Laundry Room"], [12, "Empty", "Master Bedroom"]],
+    [[13, "Golden Spoons", "Master Bathroom"], [14, "Golden Spoons", "Guest Bedroom"], [15, "Empty", "Movie Theater"],
+     [16, "Golden Spoons", "Spa"]]
 ]
 
 total_items_collected = 0  # Player's inventory.
